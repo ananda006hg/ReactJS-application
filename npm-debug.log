@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle pluralsight-redux-starter@1.0.0~prestart: pluralsight-redux-starter@1.0.0
+6 verbose lifecycle pluralsight-redux-starter@1.0.0~prestart: unsafe-perm in lifecycle true
+7 verbose lifecycle pluralsight-redux-starter@1.0.0~prestart: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\ahg\WebstormProjects\demo\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.7.0_55\bin;C:\Program Files\TortoiseSVN\bin;D:\Softwares\apache-maven-3.3.9\bin;C:\apache-maven-3.2.1\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files (x86)\SafeCom\SafeComPrintClient;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Users\ahg\AppData\Roaming\npm
+8 verbose lifecycle pluralsight-redux-starter@1.0.0~prestart: CWD: C:\Users\ahg\WebstormProjects\demo
+9 silly lifecycle pluralsight-redux-starter@1.0.0~prestart: Args: [ '/d /s /c', 'babel-node tools/startMessage.js' ]
+10 silly lifecycle pluralsight-redux-starter@1.0.0~prestart: Returned: code: 0  signal: null
+11 info lifecycle pluralsight-redux-starter@1.0.0~start: pluralsight-redux-starter@1.0.0
+12 verbose lifecycle pluralsight-redux-starter@1.0.0~start: unsafe-perm in lifecycle true
+13 verbose lifecycle pluralsight-redux-starter@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\ahg\WebstormProjects\demo\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.7.0_55\bin;C:\Program Files\TortoiseSVN\bin;D:\Softwares\apache-maven-3.3.9\bin;C:\apache-maven-3.2.1\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files (x86)\SafeCom\SafeComPrintClient;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Users\ahg\AppData\Roaming\npm
+14 verbose lifecycle pluralsight-redux-starter@1.0.0~start: CWD: C:\Users\ahg\WebstormProjects\demo
+15 silly lifecycle pluralsight-redux-starter@1.0.0~start: Args: [ '/d /s /c',
+15 silly lifecycle   'npm-run-all --parallel open:src lint:watch test:watch' ]
+16 verbose stack Error: kill ENOSYS
+16 verbose stack     at Object.exports._errnoException (util.js:1020:11)
+16 verbose stack     at process.kill (internal/process.js:191:18)
+16 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+16 verbose stack     at emitNone (events.js:91:20)
+16 verbose stack     at process.emit (events.js:185:7)
+16 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+16 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+16 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+17 verbose cwd C:\Users\ahg\WebstormProjects\demo
+18 error Windows_NT 6.1.7601
+19 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+20 error node v6.11.4
+21 error npm  v3.10.10
+22 error code ENOSYS
+23 error errno ENOSYS
+24 error syscall kill
+25 error kill ENOSYS
+26 error If you need help, you may report this error at:
+26 error     <https://github.com/npm/npm/issues>
+27 verbose exit [ 1, true ]
